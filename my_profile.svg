@@ -3,20 +3,22 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
             h1 {
-                color: red;
-                animation: mymove 2s infinite;
+                animation: mymove 0.3s infinite;
             }
 
             @keyframes mymove {
-                from {
-                    color: red;
-                }
-                to {
-                    color: yellow;
-                }
+                0% { color: red; }
+                14% { color: orange; }
+                28% { color: yellow; }
+                42% { color: green; }
+                57% { color: blue; }
+                71% { color: indigo; }
+                85% { color: violet; }
+                100% { color: red; }
             }
             </style>
             <h1>Hi there, I'm a <b>Full-Stack Developer</b> and a <b>Bocchitcon</b></h1>
         </div>
     </foreignObject>
 </svg>
+
